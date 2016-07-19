@@ -22,7 +22,7 @@ MODULE_LICENSE("GPL");
 #define SWEEP_LEFT		0x02
 #define VIB_STRENGTH		20
 
-extern void set_vibrate(int value);
+extern void set_vibrate(int value) {}
 
 // 1=sweep right, 2=sweep left, 3=both
 static int s2s_switch = 2;
